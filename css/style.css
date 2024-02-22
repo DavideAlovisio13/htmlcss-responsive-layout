@@ -85,6 +85,16 @@ img {
     margin: 10px auto;
 }
 
+.btn-left {
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    border-radius: 25px;
+    width: 50%;
+}
+
 #btn-circle {
     width: 60px;
     height: 60px;
@@ -150,8 +160,8 @@ nav {
     background-color: var(--color-bg-color-purple);
 }
 
-.card h2 {
-    font-size: 2.2em;
+h2 {
+    font-size: 2.4em;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -168,5 +178,12 @@ nav {
     height: 100%;
     object-fit: cover;
 }
+
+#benefits {
+    background-color: var(--color-bg-color-purple);
+}
+
+
+
 
 

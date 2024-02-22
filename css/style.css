@@ -25,7 +25,7 @@ img {
 .container {
     width: 90%;
     margin: 0px auto;
-    padding: 50px 20px;
+    padding: 40px 20px;
 }
 
 .text-bold {
@@ -93,6 +93,9 @@ img {
     margin: 20px auto;
 }
 
+.padding-bt {
+    padding-bottom: 100px;
+}
 /* header */
 header {
     width: 100%;
@@ -147,8 +150,20 @@ nav {
 
 .card h2 {
     font-size: 2.2em;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.photo-cont {
+    border-radius: 50%;
+    margin: auto;
+    width: 300px;
+    height: 300px ;
+    overflow: hidden;
+}
+.photo-cont img {
+    height: 100%;
+    object-fit: cover;
 }
 
 

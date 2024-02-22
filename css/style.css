@@ -24,8 +24,12 @@ img {
 /* utility */
 .container {
     width: 90%;
-    margin: 0 auto;
-    padding: 10px;
+    margin: 0px auto;
+    padding: 50px 20px;
+}
+
+.text-bold {
+    font-weight: bold;
 }
 
 .text-left {
@@ -35,6 +39,9 @@ img {
     text-align: center;
 }
 
+.text-grey {
+    color: var(--color-text-cards);
+}
 .text-white {
     color: var(--color-bg-color-white);
 }
@@ -51,17 +58,39 @@ img {
     color: var(--color-bg-color-blue);
 }
 
-.btn-blue {
+.bg-blue {
+    background-color: var(--color-bg-color-blue);
+}
+
+.bg-light-blue {
+    background-color: var(--color-bg-color-light-blue);
+}
+
+.bg-purple {
+    background-color: var(--color-bg-color-purple);
+}
+
+.bg-white {
+    background-color: var(--color-bg-color-white);
+}
+
+.btn {
     display: inline-block;
-    color: var(--color-bg-color-white);
     text-align: center;
     font-weight: bolder;
     font-size: 1.5em;
-    background-color: var(--color-bg-color-blue);
     padding: 10px 30px;
     border-radius: 20px;
     width: 50%;
     margin: 10px auto;
+}
+
+#btn-circle {
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    margin: 20px auto;
 }
 
 /* header */
@@ -83,7 +112,6 @@ nav {
     padding: 30px;
     word-wrap: break-word;
     margin: 20px 0;
-    background-color: var(--color-bg-color-light-blue);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -98,8 +126,6 @@ nav {
     font-size: 1.3em;
     display: block;
     padding: 20px 0px;
-    font-weight: bold;
-    color: var(--color-text-cards);
     line-height: 2;
 }
 .i-center {
@@ -114,5 +140,15 @@ nav {
     object-fit: cover;
 }
 
+#strategic-planning {
+    width: 100%;
+    background-color: var(--color-bg-color-purple);
+}
+
+.card h2 {
+    font-size: 2.2em;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
 
 

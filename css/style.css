@@ -1,0 +1,32 @@
+/* general */
+:root {
+	--color-bg-color-white: #ffffff;
+	--color-bg-color-blue: #0084fd;
+	--color-bg-color-purple: #9792e4;
+	--color-bg-color-light-blue: #b5ddff;
+	--color-color-font: #fdc15f;
+}
+
+body{
+    font-family: "PT Sans", sans-serif;
+}
+/* quando allargo sopra i 576px */
+/* 992px*/
+/* 1200px */
+
+/* header */
+header {
+    width: 100%;
+    background-color: var(--color-bg-color-blue);
+    position: fixed;
+    z-index: 1000;
+}
+
+nav {
+    width:90%;
+    margin: auto;
+    padding: 10px 30px;
+    
+}
+
+

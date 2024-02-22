@@ -135,9 +135,11 @@ nav {
     font-size: 7em;
     padding: 60px;
 }
+
 #bt-img {
     margin-bottom: -30px;
 }
+
 .bt-img img {
     height: 100%;
     object-fit: cover;
@@ -161,6 +163,7 @@ nav {
     height: 300px ;
     overflow: hidden;
 }
+
 .photo-cont img {
     height: 100%;
     object-fit: cover;
